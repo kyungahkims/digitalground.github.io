@@ -206,7 +206,7 @@ header {
 header button {
   font-size: 18px;
   border-radius: 24px;
-  padding: 13px 25px;
+  padding: 13px 29px;
 }
 
 /* page1 */
@@ -722,9 +722,12 @@ footer ul.right li:nth-child(1):after {
     /* padding: 20px 17px; */
     padding: 16px 17px;
   }
+  header .logo img {
+    max-width: 130px;
+  }
   header button {
     font-size: 16px;
-    padding: 10px 16px;
+    padding: 8px 20px;
   }
   /* 반응형 page1 */
   .page1 {
