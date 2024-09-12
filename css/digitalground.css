@@ -501,6 +501,7 @@ header button {
   display: -ms-flexbox;
   display: flex;
   font-size: 20px;
+  white-space: nowrap;
   font-weight: bold;
 }
 .page3 .info .info_complete.active {
