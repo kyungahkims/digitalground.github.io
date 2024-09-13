@@ -826,6 +826,26 @@ footer {
 	.page3 {
 		padding-bottom: 48px;
 
+		.info {
+
+			.info_complete {
+				transform: translateX(250%);
+
+				&.active {
+
+					@keyframes info_complete {
+						from {
+							transform: translateX(250%);
+						}
+
+						to {
+							transform: translateX(-100%);
+						}
+					}
+				}
+			}
+		}
+
 		h2 {
 			padding-top: 53px;
 

@@ -880,6 +880,30 @@ footer ul.right li:nth-child(1):after {
   .page3 {
     padding-bottom: 48px;
   }
+  .page3 .info .info_complete {
+    -webkit-transform: translateX(250%);
+            transform: translateX(250%);
+  }
+  @-webkit-keyframes info_complete {
+    from {
+      -webkit-transform: translateX(250%);
+              transform: translateX(250%);
+    }
+    to {
+      -webkit-transform: translateX(-100%);
+              transform: translateX(-100%);
+    }
+  }
+  @keyframes info_complete {
+    from {
+      -webkit-transform: translateX(250%);
+              transform: translateX(250%);
+    }
+    to {
+      -webkit-transform: translateX(-100%);
+              transform: translateX(-100%);
+    }
+  }
   .page3 h2 {
     padding-top: 53px;
   }
